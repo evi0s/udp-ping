@@ -6,7 +6,8 @@ DEBUG = True if 'DEBUG' in os.environ else False
 
 
 def debug(message):
-    print("\033[0;33;40m[Debug]\033[0m: %s" % message)
+    if DEBUG:
+        print("\033[0;33;40m[Debug]\033[0m: %s" % message)
 
 
 def error(message):
