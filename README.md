@@ -4,12 +4,14 @@ UDP Ping
 
 计网作业 awsl
 
+*python version: 3.7*
+
 ## Usage
 
 ### Server
 
 ```bash
-python server.py
+python3 server.py
 ```
 
 Available configs
